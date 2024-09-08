@@ -1,4 +1,4 @@
-package Strings;
+package Strings.Easy;
 
 
 import java.io.*;

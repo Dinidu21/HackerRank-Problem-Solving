@@ -22,7 +22,7 @@ class BillDivisionResult {
     public static void bonAppetit(List<Integer> bill, int k, int b) {
         int tot =0;
         for (int i = 0; i < bill.size(); i++) {
-            if(bill.get(i)== bill.get(k)){
+            if(Objects.equals(bill.get(i), bill.get(k))){
                 continue;
             }
             tot+= bill.get(i);
